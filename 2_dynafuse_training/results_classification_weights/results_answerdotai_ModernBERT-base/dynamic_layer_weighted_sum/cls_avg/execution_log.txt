@@ -1,0 +1,52 @@
+============================================================
+INÍCIO DO TREINO: answerdotai/ModernBERT-base | cls_avg
+============================================================
+
+Task: MR , Seed: 1 -> Early Stopping na época 13, Acc: 0.7689, Loss: 0.4566
+Task: MR , Seed: 2 -> Early Stopping na época 12, Acc: 0.7637, Loss: 0.4564
+Task: MR , Seed: 3 -> Early Stopping na época 21, Acc: 0.7628, Loss: 0.4257
+Task: MR , Seed: 4 -> Early Stopping na época 17, Acc: 0.7698, Loss: 0.4385
+Task: MR , Seed: 5 -> Early Stopping na época 17, Acc: 0.7478, Loss: 0.4365
+✅ MR Final: 0.7745 ± 0.0036 (Seeds: 5)
+Task: CR , Seed: 1 -> Early Stopping na época 14, Acc: 0.7894, Loss: 0.3558
+Task: CR , Seed: 2 -> Early Stopping na época 14, Acc: 0.7748, Loss: 0.4334
+Task: CR , Seed: 3 -> Early Stopping na época 20, Acc: 0.8172, Loss: 0.3111
+Task: CR , Seed: 4 -> Early Stopping na época 16, Acc: 0.8291, Loss: 0.3481
+Task: CR , Seed: 5 -> Early Stopping na época 11, Acc: 0.7815, Loss: 0.3793
+✅ CR Final: 0.8268 ± 0.0092 (Seeds: 5)
+Task: SUBJ , Seed: 1 -> Early Stopping na época 20, Acc: 0.9300, Loss: 0.1395
+Task: SUBJ , Seed: 2 -> Early Stopping na época 12, Acc: 0.9190, Loss: 0.1809
+Task: SUBJ , Seed: 3 -> Early Stopping na época 12, Acc: 0.8715, Loss: 0.1568
+Task: SUBJ , Seed: 4 -> Early Stopping na época 15, Acc: 0.9090, Loss: 0.1768
+Task: SUBJ , Seed: 5 -> Early Stopping na época 16, Acc: 0.9275, Loss: 0.1822
+✅ SUBJ Final: 0.9309 ± 0.0014 (Seeds: 5)
+Task: MPQA , Seed: 1 -> Early Stopping na época 19, Acc: 0.8511, Loss: 0.3384
+Task: MPQA , Seed: 2 -> Early Stopping na época 7, Acc: 0.8318, Loss: 0.3786
+Task: MPQA , Seed: 3 -> Early Stopping na época 11, Acc: 0.8412, Loss: 0.3511
+Task: MPQA , Seed: 4 -> Early Stopping na época 12, Acc: 0.8473, Loss: 0.3494
+Task: MPQA , Seed: 5 -> Early Stopping na época 9, Acc: 0.8209, Loss: 0.3552
+✅ MPQA Final: 0.8464 ± 0.0071 (Seeds: 5)
+Task: SST2 , Seed: 1 -> Early Stopping na época 15, Acc: 0.8337, Loss: 0.3787
+Task: SST2 , Seed: 2 -> Early Stopping na época 13, Acc: 0.8326, Loss: 0.3762
+Task: SST2 , Seed: 3 -> Early Stopping na época 13, Acc: 0.8326, Loss: 0.3773
+Task: SST2 , Seed: 4 -> Early Stopping na época 9, Acc: 0.8211, Loss: 0.3793
+Task: SST2 , Seed: 5 -> Early Stopping na época 6, Acc: 0.8200, Loss: 0.3853
+✅ SST2 Final: 0.8353 ± 0.0071 (Seeds: 5)
+Task: TREC , Seed: 1 -> Early Stopping na época 17, Acc: 0.9020, Loss: 0.3070
+Task: TREC , Seed: 2 -> Early Stopping na época 13, Acc: 0.9140, Loss: 0.3666
+Task: TREC , Seed: 3 -> Early Stopping na época 10, Acc: 0.8580, Loss: 0.4060
+Task: TREC , Seed: 4 -> Early Stopping na época 11, Acc: 0.9160, Loss: 0.3624
+Task: TREC , Seed: 5 -> Early Stopping na época 11, Acc: 0.8860, Loss: 0.3744
+✅ TREC Final: 0.9200 ± 0.0061 (Seeds: 5)
+Task: MRPC , Seed: 1 -> Early Stopping na época 13, Acc: 0.7275, Loss: 0.4838
+Task: MRPC , Seed: 2 -> Early Stopping na época 9, Acc: 0.7362, Loss: 0.5143
+Task: MRPC , Seed: 3 -> Early Stopping na época 18, Acc: 0.7461, Loss: 0.4674
+Task: MRPC , Seed: 4 -> Early Stopping na época 11, Acc: 0.7386, Loss: 0.4789
+Task: MRPC , Seed: 5 -> Early Stopping na época 16, Acc: 0.7449, Loss: 0.4961
+✅ MRPC Final: 0.7477 ± 0.0058 (Seeds: 5)
+Task: NLI , Seed: 1 -> Early Stopping na época 14, Acc: 0.6049, Loss: 0.8706
+Task: NLI , Seed: 2 -> Early Stopping na época 19, Acc: 0.5996, Loss: 0.8672
+Task: NLI , Seed: 3 -> Early Stopping na época 16, Acc: 0.5888, Loss: 0.8706
+Task: NLI , Seed: 4 -> Early Stopping na época 17, Acc: 0.5988, Loss: 0.8700
+Task: NLI , Seed: 5 -> Early Stopping na época 20, Acc: 0.6048, Loss: 0.8649
+✅ NLI Final: 0.6090 ± 0.0026 (Seeds: 5)

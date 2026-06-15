@@ -1,0 +1,12 @@
+conda create -n rapids-25.12 -c rapidsai -c conda-forge     rapids=25.12 python=3.11 'cuda-version=13.0'
+conda activate rapids-25.12
+conda install cuda-cudart cuda-version=13 
+pip3 install torch torchvision --index-url https://download.pytorch.org/whl/cu130
+pip install transformers
+pip install nltk
+python
+import nltk
+nltk.download('stopword')
+
+
+python main_experiments.py --models allmpnet --initial_layer  12 --final_layer 12 --poolings three --agg_layers AVGAGGLAYERS --save_dir sbert_three_rapid

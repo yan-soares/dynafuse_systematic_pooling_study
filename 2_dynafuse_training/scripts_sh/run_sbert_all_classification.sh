@@ -1,0 +1,9 @@
+python ../train_dynafuse.py --model_name sentence-transformers/all-mpnet-base-v2 --pooling_type avg --type_fusion dynamic_layer --mode_fusion weighted_mean --base_path results_classification_weights &&
+python ../train_dynafuse.py --model_name sentence-transformers/all-mpnet-base-v2 --pooling_type cls --type_fusion dynamic_layer --mode_fusion weighted_mean --base_path results_classification_weights &&
+python ../train_dynafuse.py --model_name sentence-transformers/all-mpnet-base-v2 --pooling_type cls_avg --type_fusion dynamic_layer --mode_fusion weighted_mean --base_path emnlp_classification_weight &&
+python ../train_dynafuse.py --model_name sentence-transformers/all-mpnet-base-v2 --pooling_type avg --type_fusion dynamic_layer --mode_fusion weighted_sum --base_path results_classification_weights &&
+python ../train_dynafuse.py --model_name sentence-transformers/all-mpnet-base-v2 --pooling_type cls --type_fusion dynamic_layer --mode_fusion weighted_sum --base_path results_classification_weights &&
+python ../train_dynafuse.py --model_name sentence-transformers/all-mpnet-base-v2 --pooling_type cls_avg --type_fusion dynamic_layer --mode_fusion weighted_sum --base_path results_classification_weights &&
+python ../train_dynafuse.py --model_name sentence-transformers/all-mpnet-base-v2 --pooling_type avg --type_fusion cnn_1d --mode_fusion default --base_path results_classification_weights &&
+python ../train_dynafuse.py --model_name sentence-transformers/all-mpnet-base-v2 --pooling_type cls --type_fusion cnn_1d --mode_fusion default --base_path results_classification_weights &&
+python ../train_dynafuse.py --model_name sentence-transformers/all-mpnet-base-v2 --pooling_type cls_avg --type_fusion cnn_1d --mode_fusion default --base_path results_classification_weights

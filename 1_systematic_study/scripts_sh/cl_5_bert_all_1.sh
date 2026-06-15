@@ -1,0 +1,9 @@
+#!/bin/bash
+python main_experiments.py --task_type classification --models bert-base --epochs 1 --batch 1024 --kfold 10 --optim adam --nhid 0 --initial_layer 12 --final_layer 12 --poolings four --agg_layers SUMAGGLAYERS &&
+python main_experiments.py --task_type classification --models bert-base --epochs 1 --batch 1024 --kfold 10 --optim adam --nhid 0 --initial_layer 12 --final_layer 12 --poolings four --agg_layers AVGAGGLAYERS &&
+python main_experiments.py --task_type classification --models bert-base --epochs 1 --batch 1024 --kfold 10 --optim adam --nhid 0 --initial_layer 6 --final_layer 12 --poolings four --agg_layers LYR &&
+python main_experiments.py --task_type classification --models bert-base --epochs 1 --batch 1024 --kfold 10 --optim adam --nhid 0 --initial_layer 0 --final_layer 6 --poolings four --agg_layers LYR &&
+python main_experiments.py --task_type classification --models bert-base --epochs 1 --batch 1024 --kfold 10 --optim adam --nhid 0 --initial_layer 12 --final_layer 12 --poolings three --agg_layers SUMAGGLAYERS &&
+python main_experiments.py --task_type classification --models bert-base --epochs 1 --batch 1024 --kfold 10 --optim adam --nhid 0 --initial_layer 12 --final_layer 12 --poolings three --agg_layers AVGAGGLAYERS &&
+python main_experiments.py --task_type classification --models bert-base --epochs 1 --batch 1024 --kfold 10 --optim adam --nhid 0 --initial_layer 6 --final_layer 12 --poolings three --agg_layers LYR &&
+python main_experiments.py --task_type classification --models bert-base --epochs 1 --batch 1024 --kfold 10 --optim adam --nhid 0 --initial_layer 0 --final_layer 6 --poolings three --agg_layers LYR
